@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+}
+
+main img {
+    position: absolute;
+    z-index: -1;
+}
+
+.page {
+    margin: 100px;
+}
+
+.tocas {
+    width: 222px;
+    height: 172px;
+    background-image: url(./assets/toupeira6.svg);
+
+    /* animation: toupeira 7s;
+    animation-delay: 3s;
+    animation-iteration-count: 510; */
+}
+
+main div:nth-child(1) {
+    width: 222px;
+    height: 172px;
+    background-image: url(./assets/toupeira6.svg);
+
+    animation: toupeira 7s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+main div:nth-child(3) {
+    width: 222px;
+    height: 172px;
+    background-image: url(./assets/toupeira6.svg);
+
+    animation: toupeira 10s;
+    animation-delay: 15s;
+    animation-iteration-count: 1;
+}
+
+main div:nth-child(12) {
+    width: 222px;
+    height: 172px;
+    background-image: url(./assets/toupeira6.svg);
+
+    animation: toupeira 10s;
+    animation-delay: 20s;
+    animation-iteration-count: 1;
+}
+
+@keyframes toupeira {
+    0% {
+        background-image: url(./assets/toupeira1.svg);
+    }
+
+    20% {
+        background-image: url(./assets/toupeira2.svg);
+    }
+
+    40% {
+        background-image: url(./assets/toupeira3.svg);
+    }
+
+    60% {
+        background-image: url(./assets/toupeira4.svg);
+    }
+
+    80% {
+        background-image: url(./assets/toupeira5.svg);
+    }
+
+    100% {
+        background-image: url(./assets/toupeira6.svg);
+    }
+}
+
+@keyframes toupeira2 {
+    0% {
+        background-image: url(./assets/toupeira1.svg);
+    }
+
+    20% {
+        background-image: url(./assets/toupeira2.svg);
+    }
+
+    40% {
+        background-image: url(./assets/toupeira3.svg);
+    }
+
+    60% {
+        background-image: url(./assets/toupeira4.svg);
+    }
+
+    80% {
+        background-image: url(./assets/toupeira5.svg);
+    }
+
+    100% {
+        background-image: url(./assets/toupeira6.svg);
+    }
+}
+
+.tocaias {
+    display: grid;
+    gap: 30px;
+    padding-top: 250px;
+    padding-right: 200px;
+    padding-left: 100px;
+    
+    grid-template-areas: 
+    "A B C D"
+    "E F G H"
+    "I J K L"
+    ;
+}
+
+main div:nth-child(1) {
+    grid-area: A;
+}
+
+main div:nth-child(2) {
+    grid-area: B;
+  }
+
+main div:nth-child(3) {
+    grid-area: C;
+}
+
+main div:nth-child(4) {
+    grid-area: D;
+}
+
+main div:nth-child(5) {
+    grid-area: E;
+}
+
+main div:nth-child(6) {
+    grid-area: F;
+}
+
+main div:nth-child(7) {
+    grid-area: G;
+}
+
+main div:nth-child(8) {
+    grid-area: H;
+  }
+
+main div:nth-child(9) {
+    grid-area: I;
+}
+
+main div:nth-child(10) {
+    grid-area: J;
+}
+
+main div:nth-child(11) {
+    grid-area: K;
+}
+
+main div:nth-child(12) {
+    grid-area: L;
+}
+
